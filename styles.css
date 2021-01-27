@@ -3,24 +3,24 @@ body {
     background-color: #EEEEEE; 
   }
 
-ul {
+.list-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.list-menu li {
   float: left;
 }
 
-a {
+.list-menu a {
   display: block;
   padding: 8px;
   background-color: #fdfb67;
   color:green
 }
 
-h1 {
+.about-me h1 {
     font-size: 36px;
     font-family: "Helvetica";
     text-align: center;
@@ -28,13 +28,13 @@ h1 {
     background-color: aquamarine;
   }
 
-p {
+.about-me p {
     text-align: center;
     font-family: monospace;
     font-size: 24px;
   }
 
-h2 {
+.projects h1 {
     font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -44,7 +44,7 @@ h2 {
     border: 1px solid #5D6063;
 }
 
-h3 {
+.work h1 {
   font-size: 36px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
@@ -53,7 +53,7 @@ h3 {
   color:rgba(170, 170, 170, 0.363);
 }
 
-h4 {
+.contact h1 {
   font-size: 36px;
   font-family:fantasy;
   text-align: center;
@@ -62,3 +62,15 @@ h4 {
   color:rgba(8, 161, 250, 0.363);
 }
 
+#button-2 {
+  color: #ffffff;  /* Dark gray */
+  background-color: blueviolet;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
